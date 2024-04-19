@@ -2,9 +2,16 @@ html {
   scroll-behavior: smooth;
   overflow-x:hidden;
 }
-.section1{
-  background-color: #f5825c;
+body{
+  background-color: #DC3C4D;
 }
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
     .hding{
         text-align: left;
         width: 100%;
@@ -15,13 +22,13 @@ html {
       padding:10px;
       margin: 10px;
     }
-    h1{
+    h1{      
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
       color: white;
     }
     .cuisines{
-      background-color: rgb(40,36,44);
+      background-color: rgb(0,0,0);
     }
     .cards {
       display: flex;
@@ -80,10 +87,8 @@ html {
       font-family: 'Times New Roman', Times, serif;
     }
     .about{
-      background-image: url('https://i.pinimg.com/736x/82/a0/47/82a0474442bb6189afd19ba620222507.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-color: black;
+      color: white;
       margin: 10px;
       padding: 30px;
-      
     }
